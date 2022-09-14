@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.body { /*bg = background em html*/
+    background-image: url("imagembg.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    background-color: rgb(67, 197, 67);
+    padding: 10px;
+    border-radius: 20px;
+    width: 30%;
+    box-shadow: 10px 10px 10px, -10px -10px 10px;
+ }
+
+ #VotosCandX {
+  text-align: center;
+  border-radius: 20px;
+ }
+
+ #VotosCandY {
+    text-align: center;
+
+    border-radius: 20px;
+
+}
+
+#VotosEmBranco {
+    text-align: center;
+
+    border-radius: 20px;
+
+}
+
+#VotosNulo {
+    text-align: center;
+
+    border-radius: 20px;
+
+}
+
+#total{
+    text-align: center;
+
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+}
